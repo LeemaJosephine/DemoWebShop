@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T19:33:55 IST" name="Suite" finished-at="2024-10-24T19:34:17 IST" duration-ms="22285">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T19:33:55 IST" name="Test" finished-at="2024-10-24T19:34:17 IST" duration-ms="22285">
+      <class name="test.TC001_RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_RegisterTest@22ff4249]" started-at="2024-10-24T19:33:55 IST" name="setup" finished-at="2024-10-24T19:33:55 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.TC001_RegisterTest@22ff4249]" started-at="2024-10-24T19:33:58 IST" name="launchBrowser" finished-at="2024-10-24T19:34:12 IST" duration-ms="13159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_RegisterTest@22ff4249]" started-at="2024-10-24T19:34:12 IST" name="registerTest" data-provider="ReadData" finished-at="2024-10-24T19:34:16 IST" duration-ms="4832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leema]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jose]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lee@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lee.123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[lee.123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC001_RegisterTest@22ff4249]" started-at="2024-10-24T19:34:16 IST" name="closeBrowser" finished-at="2024-10-24T19:34:17 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC001_RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
