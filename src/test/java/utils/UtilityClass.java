@@ -13,12 +13,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 public class UtilityClass {
 
 	
 	public static WebDriver driver;
 	public String sheetname;
 	public WebDriverWait wait;
+	public ExtentSparkReporter reporter; //decides the path where report will be generated, customizes looks of the report
+	public ExtentReports extent;//Generate Extent report  based on path 
+	public ExtentTest test;// defines a test inside a report
 	
 	public void launch() {
 		

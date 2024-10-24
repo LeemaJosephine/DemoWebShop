@@ -12,11 +12,13 @@ public class TC001_RegisterTest extends ProjectSpecificMethod{
 	public void setup() {
 		
 		sheetname="register";
+		
 	}
 	
 	@Test(dataProvider = "ReadData")
 	public void registerTest(String fname,String lname, String email, String pass, String conpass) {
 		
+		test=extent.createTest("Test1");
 		HomePage obj = new HomePage(driver);
 		obj.clickRegister()
 		.chooseGender()
